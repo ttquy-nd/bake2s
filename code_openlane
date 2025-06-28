@@ -1,0 +1,2 @@
+nix-shell --pure ~/openlane2/shell.nix
+openlane ~/bc_tkvms/blake2s/config.json

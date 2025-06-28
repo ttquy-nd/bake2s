@@ -1,0 +1,119 @@
+TH1: 
+{
+
+  "DESIGN_NAME": "blake2s",
+  "VERILOG_FILES": ["dir::blake2s.v", "dir::blake2s_core.v", "dir::blake2s_G.v", "dir::blake2s_m_select.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 60,
+  "FP_CORE_UTIL": 30,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 2300 2300",
+
+  "MAX_TRANSITION_CONSTRAINT": 1, 
+  "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+  "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+  "PL_WIRE_LENGTH_COEF": 0.05,
+  "DEFAULT_CORNER": "max_ss_100C_1v60",
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+  "GRT_ANTENNA_ITERS": 5,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "HEURISTIC_ANTENNA_THRESHOLD": 200,
+  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 500,
+
+  "ROUTING_OPTIMIZE_NETS": true,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.2
+}
+antena loi 14, rta loi 43/679
+
+TH2:
+{
+
+  "DESIGN_NAME": "blake2s",
+  "VERILOG_FILES": ["dir::blake2s.v", "dir::blake2s_core.v", "dir::blake2s_G.v", "dir::blake2s_m_select.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 60,
+  "FP_CORE_UTIL": 30,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 2300 2300",
+
+  "MAX_TRANSITION_CONSTRAINT": 1.5, 
+  "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+  "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+  "PL_WIRE_LENGTH_COEF": 0.05,
+  "DEFAULT_CORNER": "max_ss_100C_1v60",
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+  "GRT_ANTENNA_ITERS": 5,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "HEURISTIC_ANTENNA_THRESHOLD": 200,
+  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 500,
+
+  "ROUTING_OPTIMIZE_NETS": true,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.2
+}
+antena loi 21, rta loi 56/96
+
+TH3:
+{
+
+  "DESIGN_NAME": "blake2s",
+  "VERILOG_FILES": ["dir::blake2s.v", "dir::blake2s_core.v", "dir::blake2s_G.v", "dir::blake2s_m_select.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 65,
+  "FP_CORE_UTIL": 30,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 2300 2300",
+
+  "MAX_TRANSITION_CONSTRAINT": 1,
+  "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+  "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+  "PL_WIRE_LENGTH_COEF": 0.05,
+  "DEFAULT_CORNER": "max_ss_100C_1v60",
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+  "GRT_ANTENNA_ITERS": 5,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "HEURISTIC_ANTENNA_THRESHOLD": 200,
+  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 500,
+
+  "ROUTING_OPTIMIZE_NETS": true,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.2
+}
+antenna loi 19(2 tren 3), rta loi 37/763
+
+TH4: 
+{
+
+  "DESIGN_NAME": "blake2s",
+  "VERILOG_FILES": ["dir::blake2s.v", "dir::blake2s_core.v", "dir::blake2s_G.v", "dir::blake2s_m_select.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 60,
+  "FP_CORE_UTIL": 30,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 2200 2200",
+
+  "MAX_TRANSITION_CONSTRAINT": 2,
+  "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+  "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+  "PL_WIRE_LENGTH_COEF": 0.05,
+  "DEFAULT_CORNER": "max_ss_100C_1v60",
+  "RUN_POST_GRT_DESIGN_REPAIR": true,
+
+  "GRT_ANTENNA_ITERS": 5,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "HEURISTIC_ANTENNA_THRESHOLD": 200,
+  "DESIGN_REPAIR_MAX_WIRE_LENGTH": 500,
+
+  "ROUTING_OPTIMIZE_NETS": true,
+  "RUN_POST_GRT_RESIZER_TIMING": true,
+  "PL_RESIZER_HOLD_SLACK_MARGIN": 0.2,
+  "GRT_RESIZER_HOLD_SLACK_MARGIN": 0.2
+}
+antenna loi 20, rta loi 42/50
